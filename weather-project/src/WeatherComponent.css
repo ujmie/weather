@@ -1,0 +1,32 @@
+h1{
+    color: brown;
+}
+.weather-container{
+    background-color: pink;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+.weather-info{
+    display: flex;
+}
+.weather-card{
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 0;
+    width: 30%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+@media (max-width: 600px) {
+    .weather-info{
+        flex-direction: column;
+    }
+    .weather-card{
+        width: 90%;
+    }
+}
