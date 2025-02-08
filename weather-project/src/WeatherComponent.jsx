@@ -114,5 +114,6 @@ const WeatherComponent = () => {
     
 };
 
+
 export default WeatherComponent;
 
